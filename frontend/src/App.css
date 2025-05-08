@@ -1,0 +1,272 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  color: #ffd700;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #000;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-image {
+  height: 70px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+  color: #D4AF37;
+}
+
+/* Search + Auth Container */
+.search-auth-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search Form Styling */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 15px;
+  border: 1px solid #ffd700;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  color: #ffd700;
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.auth-section .login-btn,
+.auth-section .logout-btn,
+.auth-section a,
+.auth-section button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.auth-section .login-btn:hover,
+.auth-section .logout-btn:hover {
+  color: #D4AF37;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFD700 !important;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 215, 0, 0.15);
+  background-color: #000000;
+  border: 1px solid #FFD700;
+}
+
+.search-header {
+  background-color: #000000;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #FFD700;
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #FFD700;
+}
+
+.quiz-question {
+  margin-bottom: 2rem;
+  color: #FFD700;
+}
+
+.fragrance-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #FFD700;
+}
+
+@media (min-width: 768px) {
+  .fragrance-detail {
+    flex-direction: row;
+  }
+
+  .fragrance-detail-image {
+    width: 300px;
+    margin-right: 2rem;
+  }
+}
+
+.fragrance-card {
+  margin-bottom: 2rem;
+  background-color: #000000;
+  border: 1px solid #FFD700;
+  transition: transform 0.2s;
+}
+
+.fragrance-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+.accent-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #000000;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.rating-stars {
+  color: #FFD700;
+  margin-right: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #FFD700;
+  color: #FFD700;
+}
+
+.btn-primary:hover {
+  background-color: #FFD700;
+  border-color: #FFD700;
+  color: #000000;
+}
+
+.btn-outline-secondary {
+  color: #FFD700;
+  border-color: #FFD700;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FFD700;
+  border-color: #FFD700;
+  color: #000000;
+}
+
+.form-control {
+  background-color: #1a1a1a;
+  border-color: #FFD700;
+  color: #FFD700;
+}
+
+.form-control:focus {
+  background-color: #1a1a1a;
+  border-color: #FFD700;
+  color: #FFD700;
+  box-shadow: 0 0 0 0.25rem rgba(255, 215, 0, 0.25);
+}
+
+.card {
+  background-color: #000000;
+  border: 1px solid #FFD700;
+}
+
+.card-body {
+  color: #FFD700;
+}
+
+.card-title {
+  color: #FFD700;
+}
+
+.card-subtitle {
+  color: #FFD700 !important;
+}
+
+.text-muted {
+  color: #FFD700 !important;
+  opacity: 0.8;
+}
+
+.spinner-border {
+  color: #FFD700;
+}
+
+.favourites-page h1 {
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+}

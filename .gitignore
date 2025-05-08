@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# React build output
+build/
+dist/
+
+# Environment files
+.env
+
+backend/cosine_sim.pkl

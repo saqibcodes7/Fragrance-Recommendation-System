@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "react-scripts": "^5.0.1"
+  }
+}
